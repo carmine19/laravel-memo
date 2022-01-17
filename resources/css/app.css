@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.login-bg-custom .min-h-screen {
+    background: #1F2937;
+    background-image: url("/images/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #1f2937;
+}
+
+.dark\:bg-dmode {
+    background-color: #1f2937 !important;
+}
